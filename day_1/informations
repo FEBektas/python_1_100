@@ -1,0 +1,9 @@
+-----> String Manipulation <-----
+adding a /n to the end of the string will make the next sentence on the following line, this will save more time and space as we dont have to write another print statement.
+* concatenating a string - we combine different strings so they will be added to the end of another string by using the "+" sign. String concatenations means taking separate characters and putting them inside one string
+*  variables - giving a name to a piece of data will store that date, and that date stored will be called a variable. That name can be change whenever we want as its name suggest.
+Rules of naming variables :
+1. Make sure your variables names are descriptive
+2. Don't have spaces between words
+3. Don't start with numbers
+4. Don't use special words like "print" or "input"
