@@ -1,0 +1,19 @@
+-----> Data types <-----
+* Strings:
+- putting squared brackets and some values inside, printing it will show only the character with that number. This method of getting a character out of a string is called subscripting
+- starting with negative numbers will start the counting from back to the start.
+
+* Integers:
+- are whole numbers without any decimal places
+- for larger number we can separate them by using "_" instead of "," so we wont mixe them up
+
+* Floats:
+- are numbers  with decimal places
+- float is the shorter version for floating point number
+
+* Booleans
+- Booleans have only 2 values: True or False
+- Booleans are ALLWAYS starting with capital T and capital F
+
+* Type conversions
+- we can transform almost any data we want into another data type by using the built in functions
