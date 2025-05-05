@@ -1,0 +1,36 @@
+-----> Data types <-----
+* Strings:
+- putting squared brackets and some values inside, printing it will show only the character with that number. This method of getting a character out of a string is called subscripting
+- starting with negative numbers will start the counting from back to the start.
+
+* Integers:
+- are whole numbers without any decimal places
+- for larger number we can separate them by using "_" instead of "," so we wont mixe them up
+
+* Floats:
+- are numbers  with decimal places
+- float is the shorter version for floating point number
+
+* Booleans
+- Booleans have only 2 values: True or False
+- Booleans are ALLWAYS starting with capital T and capital F
+
+* Type conversions
+- we can transform almost any data we want into another data type by using the built in functions
+
+* Multiplication
+- for doing multiplications we will be using the asterix ("*") instead of the "x"
+
+* Division
+- for doing divisions we will be using the forward slash ("/")
+- whenever we are diving a number we will be ending with a floating point number. This is the default python behaviour and it's called the "implicit typecasting", because the python is implicitly converting the result into a floating point number.
+- there is another python division operator. The division by using two forward slashes "//", by using this operator, the result will be an integer. !!! By using this operator, the decimals will be removed, CAREFULLER when using it.
+
+* Exponent
+- by using the two asterix signs "**", we will be raising a number by a power, and that's called an exponent.
+
+* PEMDAS
+- PEMDAS is the mathematically rule that will dictate the priority that a calcul will be made. The order is: parentheses, exponents, multiplications/divisions and lastly additions/substractions. !!! For multiplications/divisions and additions/substractions the importance is the same, when doing a calculation, the most left calculation will be done first
+
+* Round
+- When using floating number, "Round" operator will round the number by the decimals. Two inputs can be entered, the first one what the user wants to be rounded and the second one is the number of digits we want to round it
