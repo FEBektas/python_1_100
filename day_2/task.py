@@ -24,3 +24,9 @@ print(int("1234") + int("3456"))
 
 # Exercise
 print("number of letters in your name: " + str(len(input("What is your name? "))))
+
+# second attempt
+name = input("What is your name? ")
+number_of_letters = len(name)
+
+print(f"number of letters in your name: {number_of_letters}")
