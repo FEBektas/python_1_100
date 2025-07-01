@@ -1,0 +1,10 @@
+* if/else statements:
+- depending of a particular condition, we either going to do either A, or B
+
+* Modulo Operator:
+- it looks like a percentage sign "%", but it is not only a percentage sign, in exchange it is displayed between two numbers. So it is a binary operator that calculates what is the remainder of a division.
+
+* Logical Operators:
+- "and" operator - when combining 2 different operators with an "and" both statements must be true for the entire line of code to be true. If one of those 2 is not true, then all line of code is false
+- "or" operator - if only one conditions needs to be true then we are using the "or" operator. If C or D or both are true then the line is true. Its going to be false when C and D are both false
+- "not" operator - This operator will invert a condition. If the condition is false then it becomes true or vice-versa. The operator only works when the checked condition is false.
