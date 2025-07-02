@@ -4,28 +4,29 @@ print("Hello and Wellcome to the, TinyWonderLand.\n")
 print("In order to ride in our park, you'll need to be over 120 cm.\n")
 
 height = int(input("What is your height? "))
+final_price = 0
 
 if height >= 120:
-    print("Congrats, Big Boy, you can ride in our Park.\nHave Funnn!")
+    print("You can ride in our Park, but before that we need to know your age. Because we have special prices!")
     age = int(input("What is your age? "))
-    if age <= 12:                                                       # <------ nested If/Elif conditions
-        photo = input("Before you ride, do you wish to purchase a photo? \nit will be 3$ extra ").capitalize()
-        if photo == "Yes":
-            print("Excellent, You'll be charged an extra 3$ to the bill and you'll have to pay 8$!")
-        else:
-            print("You'll have to pay 5$ dollars for a ticket young boy")
-    elif age > 18:
-        photo = input("Before you ride, do you wish to purchase a photo? \nit will be 3$ extra ").capitalize()
-        if photo == "Yes":
-            print("Excellent, You'll be charged an extra 3$ to the bill and you'll have to pay 15$!")
-        else:
-            print("You'll have to pay 12$ for a ticket grown man")
+    if 45 >= age and  age <= 55:  # This format is easier to understand and to come back to, but we can write it much simpler with few words like (elif 45 <= age <= 55).
+        final_price = 0
+        print("Wellcome, as of your age the tickets are on us!")
+    elif age >= 18:
+        final_price += 12
+        print("Young man you'll have to pay 12$ before riding!")
+    elif age < 12:
+        final_price += 5
+        print("Young one, you'll need to pay 5$ before riding")
     else:
-        photo = input("Before you ride, do you wish to purchase a photo? \nit will be 3$ extra ").capitalize()
-        if photo == "Yes":
-            print("Excellent, You'll be charged an extra 3$ to the bill and you'll have to pay 10$!")
-        else:
-            print("You'll have to pay 7$ for a ticket or 10$ including a photo!")
+        final_price += 7
+        print(f"You need to pay 7$")
+
+    photos = input("Before riding, do you want to get at the end some picture?\nIt will be only 3$ extra ")
+    if photos == "yes" or photos == "y":
+        final_price += 3
+
+    print(f"Your final bill will be {final_price}$")
 
 else:
     print("Unfortunately you are a little short to rider here.\ncome back when you'll grow taller.")
