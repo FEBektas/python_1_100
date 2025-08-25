@@ -1,0 +1,4 @@
+*Modules - When the codes becomes so long we are splitting into individual *Modules where each module is responsible for a different bit of functionality.
+- ** "Random" is a module where the python is choosing a random integer between a range of numbers.
+- * We can create our own "Modules" by creating a python file with the intended content and in our own file we will use: import my_module # importing the module from the python file
+                                                                                                                         print(my_module.My_fav_number) # printing the variable inside the python file we've created our own module.
