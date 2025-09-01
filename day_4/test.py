@@ -14,3 +14,15 @@ print(random_numbers)
 # Creating a floating point number between a range.
 random_float_number = random.uniform(1,10) # Random module to create a random floating point number between the set of range set by the us.
 print(random_float_number)
+
+# Lists
+
+states = ["Delaware", "Pennsylvania", "New Jersey", "Georgia"]
+
+print(states[0]) # The print statement will print the first element in the list "Delaware". The "0" is for the index number for the first element in the list, and is increasing by 1 with every element in the list.
+                 # By adding negative index will print the elements from the end of the list EX: ("-1")
+
+# Changing a piece of data to a new piece of data.
+states[0] = "Pencilvania" # By doing this statement will modify the first element in the list (index 0 - "Pennsylvania") to another new piece of data.
+
+# Adding new data to the list
