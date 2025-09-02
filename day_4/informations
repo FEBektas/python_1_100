@@ -5,3 +5,5 @@
 
 *Lists - a list is a Data Structure, a way of organizing and storing dates in python. A list is just a set of squared paratheses "[]" with many elements stocked insided, the elements can be any pieces of data.
 - * We can use lists to stock many pieces of related data, but they also have a order. The order is set by the order in the list.
+- ** - .append will add new items at the end of our lists.
+- ** - .extend will extend our list with another list that we will create in the function.

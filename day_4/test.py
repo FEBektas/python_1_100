@@ -25,4 +25,10 @@ print(states[0]) # The print statement will print the first element in the list 
 # Changing a piece of data to a new piece of data.
 states[0] = "Pencilvania" # By doing this statement will modify the first element in the list (index 0 - "Pennsylvania") to another new piece of data.
 
-# Adding new data to the list
+# Adding new items to the list by using the .append function.
+states.append("New York")
+print(states)
+
+# Extending our initial list with another created list by using .extend. Creating the list in the function will follow the same rules as creating a new list.
+states.extend(["Paris", "Jersey", "Dublin"])
+print(states)
