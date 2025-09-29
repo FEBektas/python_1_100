@@ -7,3 +7,4 @@
 - * We can use lists to stock many pieces of related data, but they also have a order. The order is set by the order in the list.
 - ** - .append will add new items at the end of our lists.
 - ** - .extend will extend our list with another list that we will create in the function.
+- * An index error is displayed when we are trying to print an item from a list that is past our list limits. Like we are trying to print something that doesnt exist

@@ -32,3 +32,12 @@ print(states)
 # Extending our initial list with another created list by using .extend. Creating the list in the function will follow the same rules as creating a new list.
 states.extend(["Paris", "Jersey", "Dublin"])
 print(states)
+
+# Nested Lists
+# dirty_dozen = ["Pineapples", "Sweet Corn", "Fresh and FrozenAvocadosPapayaOnionSweet" "Peas (frozen)", "Asparagus", "Cabbage", "Watermelon","Cauliflower", "Bananas","Mangoes","Carrots", "Mushrooms","Kiwi"]
+
+fruits = ["Pineapples","Papaya","Watermelon","Bananas","Mangoes","Kiwi"]
+vegetables = ["Spinach", "Kale", "Tomatoes", "Celery", "Potatoes"]
+
+dirty_dozen = [fruits, vegetables]
+print(dirty_dozen[1][1])
