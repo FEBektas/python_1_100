@@ -1,0 +1,6 @@
+** - LOOPS -
+* - For Loops - using for loops we can go through each item in a list and perform some actions with each individual item.
+* - We starting by using the keyword "for" and then we give a name (Like we do with variables) and then we use the "in" keyword and finally the list we wanna loop through.
+* - The name that we are declaring works like a variable where the language will assign the name to each item in the list, creating a variable.
+
+** - Sum - will lets us add any iterable data type (including lists) and will add each of the list items.
