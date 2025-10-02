@@ -4,3 +4,4 @@
 * - The name that we are declaring works like a variable where the language will assign the name to each item in the list, creating a variable.
 
 ** - Sum - will lets us add any iterable data type (including lists) and will add each of the list items.
+** - The Range function is really really helpfully if we want to generate a range of numbers too loop through. This functions need to work in conjunction with another function as it will not work independently.
